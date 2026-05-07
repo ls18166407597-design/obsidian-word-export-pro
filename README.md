@@ -1,8 +1,8 @@
 # Word 一键导出 (Word Export Pro)
 
-[![GitHub release](https://img.shields.io/github/v/release/liusong/obsidian-word-export-pro?style=flat-square)](https://github.com/liusong/obsidian-word-export-pro/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/ls18166407597-design/obsidian-word-export-pro?style=flat-square)](https://github.com/ls18166407597-design/obsidian-word-export-pro/releases/latest)
 
-专为 Obsidian 用户设计的极简、高清、学术级 Word (.docx) 导出插件。
+专为 Obsidian 用户设计的极简、高清、学术级 Word (.docx) 导出插件。深度优化了学术论文、课程教案等专业文档的导出体验。
 
 ## 🌟 核心亮点
 
@@ -12,14 +12,24 @@
 - **样式模板匹配**：支持自定义 Word 引用文档 (Reference DOCX)，让 Obsidian 导出的文档直接套用你的 Word 模板样式。
 - **极致纯净**：移除了原版插件中 70% 的冗余功能，专注于提供最完美的 Word 导出体验。
 
-## 🚀 快速开始
+## 🚀 安装与开始
 
-1. **安装插件**：在 Obsidian 插件市场搜索 `Word 一键导出` 并安装（或手动将发布包放入 `plugins` 文件夹）。
-2. **安装 Pandoc**：确保你的电脑上安装了 [Pandoc](https://pandoc.org/installing.html)。
-3. **开始导出**：
-   - 在笔记页面点击右键，选择 **“导出为 Word”**。
-   - 在弹出的窗口中选择你的 Word 模板（可选）。
-   - 点击导出，搞定！
+由于本插件为学术定制 Pro 版，暂未上架官方市场，请通过以下方式安装：
+
+### 方法 A：手动安装 (推荐)
+1. 点击 [Latest Release](https://github.com/ls18166407597-design/obsidian-word-export-pro/releases/latest) 下载 `main.js`, `manifest.json`, `styles.css` 三个文件。
+2. 在你的 Obsidian 库中进入 `.obsidian/plugins/` 目录。
+3. 创建文件夹 `obsidian-word-export-pro`，并将下载的三个文件放入其中。
+4. 在 Obsidian 设置的“第三方插件”列表中启用它。
+
+### 方法 B：使用 BRAT 安装
+1. 安装并启用 [Obsidian42 - BRAT](https://github.com/TfTHacker/obsidian42-brat) 插件。
+2. 在 BRAT 设置中选择 `Add Beta plugin`。
+3. 输入本仓库地址：`ls18166407597-design/obsidian-word-export-pro`。
+4. 点击 `Add Plugin` 即可完成安装并支持后续一键更新。
+
+> [!IMPORTANT]
+> **前置要求**：请确保你的电脑上已安装 [Pandoc](https://pandoc.org/installing.html)，这是导出功能的核心引擎。
 
 ## 📚 高级功能
 
@@ -43,7 +53,7 @@ link-citations: true
 
 本插件基于 [obsidian-enhancing-export](https://github.com/siyuan-note/obsidian-enhancing-export) 进行深度重构与优化。
 
-- **作者**: liusong
+- **作者**: [liusong](https://github.com/ls18166407597-design)
 - **许可证**: MIT
 
 ---
