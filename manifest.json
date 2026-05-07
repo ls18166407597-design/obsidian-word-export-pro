@@ -1,0 +1,11 @@
+{
+  "id": "obsidian-word-export-pro",
+  "name": "Word 一键导出",
+  "version": "1.0.0",
+  "minAppVersion": "1.6.3",
+  "description": "专为 Obsidian 设计的高清 Word (.docx) 导出插件，支持样式模板匹配。",
+  "author": "liusong",
+  "authorUrl": "",
+  "fundingUrl": "",
+  "isDesktopOnly": true
+}
